@@ -2,9 +2,9 @@
 
 pipeline {
     agent any
-    triggers {
-        cron('0 9,18 * * 1-5') // 평일 9시, 18시에 실행
-    }
+    // triggers {
+    //     cron('0 9,18 * * 1-5') // 평일 9시, 18시에 실행
+    // }
     tools {
         jdk 'jdk-17'
         gradle 'gradle-7.6'
